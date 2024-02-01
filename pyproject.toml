@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "reconcilelc"
+version = "0.1.0"
+description = "Reconciliation service between OpenRefine and Library of Congress"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.1"
+fuzzywuzzy = "^0.18.0"
+gunicorn = "^21.2.0"
+rdflib = "^7.0.0"
+requests = "^2.31.0"
+requests-cache = "^1.1.1"
+python-levenshtein = "^0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
